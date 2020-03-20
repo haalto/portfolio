@@ -42,7 +42,6 @@ const Link = styled.li`
   color: #f1f1f1;
   margin: 4vh;
   cursor: pointer;
-  width: 10%;
 `
 
 const List = styled.ul`

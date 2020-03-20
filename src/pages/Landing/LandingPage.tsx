@@ -5,7 +5,7 @@ const LandingPage: React.FC = () => {
   return (
     <div>
       <Navbar/>
-      deploy script test
+      <h1>Hey there</h1>
     </div>
   )
 }

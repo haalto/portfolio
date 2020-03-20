@@ -53,13 +53,15 @@ const navCloseButtonStyle: React.CSSProperties = {
 }
 
 const navContentStyle: React.CSSProperties = {
-  overflowX: 'hidden',
+  overflow: 'hidden',
   backgroundColor: 'black',
-  height: '100vh',
+  height: '100%',
   margin: 0,
   padding: '0',
   width: '100%',
-  position: 'absolute'
+  position: 'fixed',
+  left: 0,
+  top: 0
 }
 
 const listStyle: React.CSSProperties = {
@@ -67,7 +69,7 @@ const listStyle: React.CSSProperties = {
   display: 'flex',
   flexDirection: 'column',
   textAlign: 'center',
-  marginTop: '15vh',
+  marginTop: '5vh',
   padding: '0',
   fontSize: '2.5em'
 }

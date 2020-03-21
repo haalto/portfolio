@@ -42,28 +42,32 @@ const Container = styled.div`
 `
 
 const SourceButton = styled.a`
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   color: white;
-  background-color: #4CAF50;
-  width: 50%;
-  text-align: center;
+  background-color: black;
+  width: 40%;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 25px;
   margin-top: 2vh;
-  margin-bottom: 3vh;  
+  margin-bottom: 3vh;
+  height: 5vh;
 `
 
 const LiveButton = styled.a`
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   color: white;
-  background-color: #4CAF50;
-  width: 50%;
-  text-align: center;
+  background-color: orange;
+  width: 40%;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 25px;
   margin-bottom: 3vh;
+  height: 5vh;
 `
 
 export default Project

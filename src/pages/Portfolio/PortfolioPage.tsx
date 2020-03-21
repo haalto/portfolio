@@ -43,20 +43,19 @@ const Header = styled.h3`
   margin-bottom: 2vh;
   margin-right: 4vh;
   margin-left: 4vh;
-  border-bottom: 4px solid black;
-  color: white;
-  font-size: 3.5em;
+  color: black;
+  font-size: 3em;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
 `
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-  background: #56ab2f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+  background: #F7971E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 `
-
 export default PortfolioPage

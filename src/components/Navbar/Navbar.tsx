@@ -19,12 +19,12 @@ const Navbar: React.FC = () => {
       {
         !state.toggled 
         ? <OpenButton>
-            <FontAwesomeIcon onClick={() => dispatch({type: 'TOGGLE'})} size="2x" icon={faBars}/>
+            <FontAwesomeIcon onClick={() => dispatch({type: 'TOGGLE'})} size="3x" icon={faBars}/>
           </OpenButton>
         : 
           <Layer>
             <CloseButton>
-              <FontAwesomeIcon onClick={() => dispatch({type: 'TOGGLE'})} size="2x" icon={faTimes}/>
+              <FontAwesomeIcon onClick={() => dispatch({type: 'TOGGLE'})} size="3x" icon={faTimes}/>
             </CloseButton>
             <List>
               <Link onClick={() => handleClick('/')}>Home</Link>
@@ -57,7 +57,7 @@ const List = styled.ul`
 const CloseButton = styled.div`
   position: fixed;
   cursor: pointer;
-  margin: 7vh;
+  margin: 2vh;
   color: white;
   right: 0;
 `
@@ -65,7 +65,7 @@ const CloseButton = styled.div`
 const OpenButton = styled.div`
   position: fixed;
   cursor: pointer;
-  margin: 7vh;
+  margin: 2vh;
   right: 0;
 `
 

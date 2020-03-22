@@ -9,7 +9,7 @@ const LandingPage: React.FC = () => {
       <Navbar/>
       <TextContainer>
         <h1>Hey there!</h1>
-        <h3>My name is Hannes and I am a Msc student in Computer Science at Tampere University.</h3>
+        <h3>My name is Hannes and I am a MSc student in Computer Science at Tampere University.</h3>
         <h3>I am interested in web development and data engineering and looking to start my career as a software developer.</h3>
         <h3>I have a bachelor's degree in Public Financial Management and work experience in public sector and in accounting</h3>
         <h3>You can find my CV and portfolio from this site!</h3>

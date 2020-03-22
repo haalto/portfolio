@@ -10,9 +10,9 @@ const  App: React.FC = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={LandingPage}/>
-        <Route exact path="/cv" component={CvPage}/>
-        <Route exact path="/portfolio" component={PortfolioPage}/>
-        <Route exact path="/contact" component={ContactPage}/>
+        <Route path="/cv" component={CvPage}/>
+        <Route path="/portfolio" component={PortfolioPage}/>
+        <Route path="/contact" component={ContactPage}/>
       </Switch>
     </BrowserRouter>
   )

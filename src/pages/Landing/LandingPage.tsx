@@ -5,21 +5,22 @@ import styled from 'styled-components'
 
 const LandingPage: React.FC = () => {
   return (
-    <MainContainer>
+    <Wrapper>
       <Navbar/>
       <TextContainer>
         <h1>Hey there!</h1>
         <h3>My name is Hannes and I am a Msc student in Computer Science at Tampere University.</h3>
-        <h3>I have a bachelor's degree in Public Financial Management with previous working experience in public sector and in accounting</h3>
         <h3>I am interested in web development and data engineering and looking to start my career as a software developer.</h3>
+        <h3>I have a bachelor's degree in Public Financial Management and work experience in public sector and in accounting</h3>
         <h3>You can find my CV and portfolio from this site!</h3>
       </TextContainer>
       <Footer/>
-    </MainContainer>
+    </Wrapper>
   )
 }
 
-const MainContainer = styled.div`
+const Wrapper = styled.div`
+  min-height: 100vh;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -30,7 +31,7 @@ const MainContainer = styled.div`
 `
 
 const TextContainer = styled.article`
-  margin-top: 15vh;
+  margin-top: 10vh;
   margin-left: 0vh;
   margin-right: 10vh;
   margin-bottom: 0vh;

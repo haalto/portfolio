@@ -19,25 +19,27 @@ const renderTech = () => techs.map(tech => <div key={tech}>{tech}</div>)
       <p>{description}</p>
       <div>
         <div>{renderTech()}</div>
-      </div>      
-      <SourceButton target="blank" href={sourceUrl}>Source code</SourceButton>
-      {!liveUrl ? '' : <LiveButton target="blank" href={liveUrl}>Live version</LiveButton>}      
+      </div>
+      {!liveUrl ? '' : <LiveButton target="blank" href={liveUrl}>Live version</LiveButton>} 
+      <SourceButton target="blank" href={sourceUrl}>Source code</SourceButton>     
     </Container>
   )
 }
 
 const Container = styled.div`
   border: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
   margin-bottom: 5vh;
-  margin-top: 5vh;
-  margin-left: 5vh; 
-  margin-right: 5vh;
+  margin-top: 5vh; 
+  margin-right: 12vh;
+  margin-left: 2vh;
   display: flex;
   flex-direction: column;
   text-align: center;
   background-color: rgb(250, 250, 250);
   align-items: center;
-  border-radius: 10px;
+  border-radius: 0px 0px 25px 0px;
   box-shadow: 1px 1px 1px black;
 `
 
@@ -66,7 +68,7 @@ const LiveButton = styled.a`
   width: 40%;
   text-decoration: none;
   border-radius: 25px;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
   height: 5vh;
 `
 

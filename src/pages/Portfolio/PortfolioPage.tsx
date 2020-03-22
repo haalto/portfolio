@@ -6,7 +6,7 @@ import Footer from '../../components/Footer/Footer'
 
 const PortfolioPage: React.FC = () => {
   return (
-    <Container>
+    <Wrapper>
       <Navbar/>
       <Header>PORTFOLIO</Header>
       <Project 
@@ -34,12 +34,12 @@ const PortfolioPage: React.FC = () => {
         liveUrl="" 
         sourceUrl="https://github.com/haalto/PERN-template"/>
         <Footer/>
-    </Container>
+    </Wrapper>
   )
 }
 
 const Header = styled.h3`
-  margin-top: 12vh;
+  margin-top: 1.7vh;
   margin-bottom: 2vh;
   margin-right: 4vh;
   margin-left: 4vh;
@@ -49,7 +49,8 @@ const Header = styled.h3`
   text-align: left;
 `
 
-const Container = styled.div`
+const Wrapper = styled.div`
+  height: 100%;
   display: flex;
   flex-direction: column;
   position: relative;

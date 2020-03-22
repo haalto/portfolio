@@ -12,13 +12,13 @@ const PortfolioPage: React.FC = () => {
       <Project 
         header="ChatApp" 
         description="Full stack real time chat application with web sockets and user authentication"
-        techs={['ReactJS,', 'NodeJS', 'MongoDB Atlas,', 'Socket.io']} 
+        techs={['ReactJS,', 'NodeJS,', 'MongoDB Atlas,', 'Socket.io']} 
         liveUrl="http://haalto-chatapp.herokuapp.com/" 
         sourceUrl="https://github.com/haalto/chatapp"/>
       <Project 
         header="Twitter-clone" 
         description="Full stack twitter clone made with TypeScript using Docker"
-        techs={['ReactJS,', 'NodeJS', 'Postgres,', 'TypeScript,', 'Docker']} 
+        techs={['ReactJS,', 'NodeJS,', 'Postgres,', 'TypeScript,', 'Docker']} 
         liveUrl="" 
         sourceUrl="https://github.com/haalto/twitter-clone"/>
       <Project 
@@ -30,7 +30,7 @@ const PortfolioPage: React.FC = () => {
       <Project 
         header="PERN-template" 
         description="Template for developing full stack web applications with Postgres, Express, ReactJS, NodeJS and TypeScript. Just add .env-file and run docker-compose up and you are ready to start developing!"
-        techs={['ReactJS, NodeJS', 'Postgres,', 'TypeScript,', 'Docker']} 
+        techs={['ReactJS, NodeJS,', 'Postgres,', 'TypeScript,', 'Docker']} 
         liveUrl="" 
         sourceUrl="https://github.com/haalto/PERN-template"/>
         <Footer/>
@@ -39,7 +39,7 @@ const PortfolioPage: React.FC = () => {
 }
 
 const Header = styled.h3`
-  margin-top: 1.7vh;
+  margin-top: 10vh;
   margin-bottom: 2vh;
   margin-right: 4vh;
   margin-left: 4vh;

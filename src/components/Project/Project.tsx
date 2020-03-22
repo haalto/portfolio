@@ -31,8 +31,8 @@ const Container = styled.div`
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   margin-bottom: 5vh;
-  margin-top: 5vh; 
-  margin-right: 12vh;
+  margin-top: 2vh; 
+  margin-right: 2vh;
   margin-left: 2vh;
   display: flex;
   flex-direction: column;

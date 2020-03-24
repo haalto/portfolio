@@ -20,33 +20,53 @@ const ContactPage: React.FC = () => {
   )
 }
 
-const Header = styled.h1`
-  margin: 3vh;
-  font-size 3em;
+const Header = styled.h3`
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  margin-right: 4vh;
+  margin-left: 4vh;
+  color: black;
+  font-size: 3em;
+  overflow: hidden;
+  text-align: left;
+
+  @media (min-width: 1440px) {
+    text-align: center;
+    margin: 3vh;
+  }
 `
 
 const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
   background-color: white;
-  margin: 3vh;
   height: 60%;
   border: 1px solid black;
-  border-radius: 0px 0px 25px 0px;
+  border-radius: 25px 25px 25px 25px;
   box-shadow: 1px 1px 1px black;
   font-family: Courier New;
   font-size: 1em;
   text-align: center;
+  margin-bottom: 10vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-top: 5vh;
   padding-top: 5vh;
+  padding-bottom: 5vh;
+
+  @media (min-width: 1440px) {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+  }
 `
 const Wrapper = styled.div`
-  height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
   background: #C6FFDD;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 `
 
 export default ContactPage

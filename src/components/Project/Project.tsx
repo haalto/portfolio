@@ -32,8 +32,8 @@ const Container = styled.div`
   border-right: 1px solid black;
   margin-bottom: 5vh;
   margin-top: 2vh; 
-  margin-right: 2vh;
-  margin-left: 2vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -41,6 +41,12 @@ const Container = styled.div`
   align-items: center;
   border-radius: 0px 0px 25px 0px;
   box-shadow: 1px 1px 1px black;
+  padding: 4vw;
+
+  @media (min-width: 1440px) {
+    margin-left: 20vh;
+    margin-right: 20vh;
+  }
 `
 
 const SourceButton = styled.a`
@@ -50,7 +56,7 @@ const SourceButton = styled.a`
   border: none;
   color: white;
   background-color: black;
-  width: 40%;
+  width: 50%;
   text-decoration: none;
   border-radius: 25px;
   margin-top: 2vh;
@@ -64,8 +70,8 @@ const LiveButton = styled.a`
   justify-content: center;
   border: none;
   color: white;
-  background-color: orange;
-  width: 40%;
+  background-color: red;
+  width: 50%;
   text-decoration: none;
   border-radius: 25px;
   margin-top: 2vh;

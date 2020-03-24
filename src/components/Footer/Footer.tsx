@@ -33,6 +33,4 @@ const iconStyle: React.CSSProperties = {
   margin: "4vh"
 }
 
-
-
 export default Footer

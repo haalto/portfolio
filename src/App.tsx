@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import LandingPage from './pages/Landing/LandingPage'
 import CvPage from './pages/Cv/CvPage'
 import PortfolioPage from './pages/Portfolio/PortfolioPage'
@@ -13,6 +13,7 @@ const  App: React.FC = () => {
         <Route path="/cv" component={CvPage}/>
         <Route path="/portfolio" component={PortfolioPage}/>
         <Route path="/contact" component={ContactPage}/>
+        <Redirect from='*' to='/' />
       </Switch>
     </BrowserRouter>
   )

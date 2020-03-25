@@ -30,7 +30,7 @@ const Header = styled.h3`
   overflow: hidden;
   text-align: left;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     text-align: center;
     margin: 3vh;
   }
@@ -48,19 +48,20 @@ const ContactInfo = styled.div`
   font-size: 1em;
   text-align: center;
   margin-bottom: 10vh;
-  margin-left: 5vh;
-  margin-right: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
   margin-top: 5vh;
   padding-top: 5vh;
   padding-bottom: 5vh;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     margin-left: 10vh;
     margin-right: 10vh;
     margin-top: 5vh;
   }
 `
 const Wrapper = styled.div`
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;

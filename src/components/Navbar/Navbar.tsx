@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
 const DesktopWrapper = styled.div`
   display: none;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     display: flex;
     position: relative;
     align-items: right;
@@ -65,7 +65,7 @@ const Link = styled.li`
   margin: 4vh;
   cursor: pointer;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     display: row;
     color: black;
     margin-left: 4wh;
@@ -85,7 +85,7 @@ const List = styled.ul`
   font-size: 2.5em;
   align-items: center;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     text-align: right;
     align-items: right;
     flex-direction: row;
@@ -111,7 +111,7 @@ const OpenButton = styled.div`
   margin: 2vh;
   right: 0;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     display: none;
   }
 `

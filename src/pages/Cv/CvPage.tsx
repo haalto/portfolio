@@ -54,7 +54,7 @@ const Header = styled.h3`
   overflow: hidden;
   text-align: left;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     text-align: center;
     margin: 3vh;
   }
@@ -73,7 +73,7 @@ const CV = styled.article`
   text-align: left;
   padding: 2vw;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     margin-left: 15vw;
     margin-right: 15vw;
     margin-top: 5vh;

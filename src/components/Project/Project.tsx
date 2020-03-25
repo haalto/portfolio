@@ -43,7 +43,7 @@ const Container = styled.div`
   box-shadow: 1px 1px 1px black;
   padding: 4vw;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     margin-left: 20vh;
     margin-right: 20vh;
   }

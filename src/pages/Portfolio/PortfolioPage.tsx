@@ -50,7 +50,7 @@ const Header = styled.h3`
   overflow: hidden;
   text-align: left;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1300px) {
     text-align: center;
     margin: 3vh;
   }

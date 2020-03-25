@@ -31,7 +31,7 @@ const PortfolioPage: React.FC = () => {
         <Project 
           header="PERN-template" 
           description="Template for developing full stack web applications with Postgres, Express, ReactJS, NodeJS and TypeScript. Just add .env-file and run docker-compose up and you are ready to start developing!"
-          techs={['ReactJS, NodeJS,', 'Postgres,', 'TypeScript,', 'Docker']} 
+          techs={['ReactJS,', 'NodeJS,', 'Postgres,', 'TypeScript,', 'Docker']} 
           liveUrl="" 
           sourceUrl="https://github.com/haalto/PERN-template"/>
       </Projects>
